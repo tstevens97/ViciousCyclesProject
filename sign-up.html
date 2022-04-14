@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vicious Cycles|Sign Up</title>
+        <!--Link to Stylesheet found in the css folder-->
+        <link rel="stylesheet" href="css/systems.css">
+        <!-- Link to google font Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="sub-header">
+            <!-- Nav Section -->
+            <nav>
+                <a href="index.html"><img src="images/vicious-cycles-logo.png" id="Logo" alt="Vicious Cycles Logo"></a>
+                <br>
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Sign Up</h1>
+        </section>
+        <section class="sign-up">
+            <!-- Code for form -->
+            <form id="contact-cta" method="post" action="">
+                <label for="FirstName">First Name</label><input type="text" name="FirstName" id="FirstName">
+                <label for="LastName">Last Name</label><input type="text" name="LastName" id="LastName"><br>
+                <label for="email">Email</label><input type="email" name="email" id="email">
+                <label for="phone">Phone</label><input type="text" name="phone" id="phone"><br>
+                <fieldset>
+                    <legend>Preferred Contact Method<legend>
+                    <input type="radio" name="contact-method" value="email" id="email"><label for="email">Email</label><br>
+                    <input type="radio" name="contact-method" value="phone" id="phone"><label for="phone">phone</label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Interests (Select all that apply)</legend><br>
+                    <input type="checkbox" name="interests" value="bikes" id="bikes"><label for="bikes">Bikes</label><br>
+                    <input type="checkbox" name="interests" value="apparel" id="apparel"><label for="apparel">Apparel</label><br>
+                    <input type="checkbox" name="interests" value="accessories" id="accessories"><label for="accessories">Accessories</label><br>
+                    <input type="checkbox" name="interests" value="other" id="other">
+                    <select>
+                        <option value="other">Other</option>
+                        <option value="social-media">Social Media</option>
+                        <option value="giveaways">Giveaways</option>
+                        <option value="Promotions">Promotions</option>
+                    </select>
+                </fieldset>
+                <label for="comments">Comments</label><textarea name="comments" id="comments"></textarea><br>
+                <a href="index.html">
+                    <input type="submit">
+                </a>
+            </form>
+        </section>
+        <!-- Begin Footer section of Homepage-->
+        <footer>
+            <h4>Vicious Cycles</h4>
+            <p>123 Main St. Raleigh, NC 27000</p>
+            <p>Phone: (919)123-4567 Fax: (919) 123-9875</p>
+            <p>Be sure to follow us on Facebook and Twitter @ViciousCycles</p>
+        </footer>
+    </body>
+</html>
